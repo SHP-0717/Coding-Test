@@ -1,0 +1,21 @@
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: "Pigrun";
+  canvas {
+    width: 70vh;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px, solid, #000;
+    border-radius: 5px;
+  }
+}
+@font-face {
+  font-family: "Pigrun";
+  src: url("fonts/Minecraftia-Regular.ttf") format("truetype")
+}
